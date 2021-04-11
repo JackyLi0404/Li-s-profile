@@ -1,4 +1,4 @@
-# Li-s-profile
+# Some notes to JackyLi-s-profile
 
 My pass Github account including several projects used school email to create which cannot use anymore.
 
