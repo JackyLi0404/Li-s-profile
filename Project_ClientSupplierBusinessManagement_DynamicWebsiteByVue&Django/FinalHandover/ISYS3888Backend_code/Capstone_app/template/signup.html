@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Signup_Test</title>
+</head>
+<body>
+    <h1>Signup Test</h1>
+    <form method="post" action = /signup_site/>
+        {% csrf_token %}
+        <input type="text" name="username" placeholder="username"><br>
+        <input type="password" name="password" placeholder="password"><br>
+        <input type="password" name="cfpassword" placeholder="cfpassword"><br>
+        <button id="btn" type="submit">sign up</button>
+    </form>
+
+{% if messages %}
+<script>
+        {% for msg in messages %}
+            alert('{{ msg.message }}');
+        {% endfor %}
+    </script>
+{% endif %}
+</body>
+</html>

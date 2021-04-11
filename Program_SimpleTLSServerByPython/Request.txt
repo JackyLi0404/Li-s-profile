@@ -1,0 +1,5 @@
+In this task, we want to write a simple TLS server. It reacts to incoming TLS connection attempts
+on port 4433. If the client sends a PING (in ASCII), it responds with a PONG.
+Take the provided code pong_server_skel.py. The following questions can be answered with the
+API reference and will guide you through the task (answer the questions in the report). You must
+use the correct context and must use the provided server certificate!

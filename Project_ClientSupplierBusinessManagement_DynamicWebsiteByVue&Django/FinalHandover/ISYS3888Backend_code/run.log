@@ -1,0 +1,400 @@
+[2020-11-23 19:36:34 +0800] [17850] [INFO] Starting gunicorn 20.0.4
+[2020-11-23 19:36:34 +0800] [17850] [INFO] Listening at: http://0.0.0.0:8081 (17850)
+[2020-11-23 19:36:34 +0800] [17850] [INFO] Using worker: sync
+[2020-11-23 19:36:34 +0800] [17858] [INFO] Booting worker with pid: 17858
+[2020-11-23 19:36:34 +0800] [17859] [INFO] Booting worker with pid: 17859
+[2020-11-23 19:36:34 +0800] [17860] [INFO] Booting worker with pid: 17860
+[2020-11-23 19:36:35 +0800] [17862] [INFO] Booting worker with pid: 17862
+[2020-11-23 19:39:22 +0800] [17850] [CRITICAL] WORKER TIMEOUT (pid:17860)
+/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1418: RuntimeWarning: DateTimeField Quote.date received a naive datetime (2020-11-20 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+[2020-11-23 11:39:22 +0000] [17860] [INFO] Worker exiting (pid: 17860)
+[2020-11-23 19:39:23 +0800] [18091] [INFO] Booting worker with pid: 18091
+[2020-11-23 19:40:33 +0800] [17850] [CRITICAL] WORKER TIMEOUT (pid:17858)
+/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1418: RuntimeWarning: DateTimeField Quote.date received a naive datetime (2020-12-02 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+[2020-11-23 11:40:33 +0000] [17858] [INFO] Worker exiting (pid: 17858)
+[2020-11-23 19:40:34 +0800] [18199] [INFO] Booting worker with pid: 18199
+[2020-11-23 19:41:27 +0800] [17850] [CRITICAL] WORKER TIMEOUT (pid:17859)
+[2020-11-23 11:41:27 +0000] [17859] [INFO] Worker exiting (pid: 17859)
+[2020-11-23 19:41:28 +0800] [18278] [INFO] Booting worker with pid: 18278
+[2020-11-23 19:42:03 +0800] [17850] [CRITICAL] WORKER TIMEOUT (pid:18199)
+[2020-11-23 11:42:03 +0000] [18199] [INFO] Worker exiting (pid: 18199)
+[2020-11-23 19:42:04 +0800] [18337] [INFO] Booting worker with pid: 18337
+[2020-11-23 19:51:04 +0800] [17850] [CRITICAL] WORKER TIMEOUT (pid:18337)
+[2020-11-23 11:51:04 +0000] [18337] [INFO] Worker exiting (pid: 18337)
+[2020-11-23 19:51:05 +0800] [19191] [INFO] Booting worker with pid: 19191
+[2020-11-23 20:07:32 +0800] [17850] [CRITICAL] WORKER TIMEOUT (pid:18091)
+[2020-11-23 12:07:32 +0000] [18091] [INFO] Worker exiting (pid: 18091)
+[2020-11-23 20:07:33 +0800] [20684] [INFO] Booting worker with pid: 20684
+Not Found: /favicon.ico
+[2020-11-23 20:24:14 +0800] [17850] [CRITICAL] WORKER TIMEOUT (pid:18278)
+[2020-11-23 12:24:14 +0000] [18278] [INFO] Worker exiting (pid: 18278)
+[2020-11-23 20:24:15 +0800] [22207] [INFO] Booting worker with pid: 22207
+[2020-11-23 20:26:31 +0800] [17850] [CRITICAL] WORKER TIMEOUT (pid:22207)
+[2020-11-23 12:26:31 +0000] [22207] [INFO] Worker exiting (pid: 22207)
+[2020-11-23 20:26:32 +0800] [22459] [INFO] Booting worker with pid: 22459
+[2020-11-23 20:27:33 +0800] [17850] [CRITICAL] WORKER TIMEOUT (pid:19191)
+[2020-11-23 12:27:33 +0000] [19191] [INFO] Worker exiting (pid: 19191)
+[2020-11-23 20:27:34 +0800] [22545] [INFO] Booting worker with pid: 22545
+Internal Server Error: /new_messages/
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/www/wwwroot/myproject3888/Capstone_app/views.py", line 273, in new_messages
+    if ( (Supplier.objects.filter(token = user_token)) and (not Message.objects.filter(customer_id = obj['customer_id'])) ):
+KeyError: 'customer_id'
+/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1418: RuntimeWarning: DateTimeField Quote.date received a naive datetime (2020-12-03 17:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+Internal Server Error: /new_messages/
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/www/wwwroot/myproject3888/Capstone_app/views.py", line 273, in new_messages
+    if ( (Supplier.objects.filter(token = user_token)) and (not Message.objects.filter(customer_id = obj['customer_id'])) ):
+KeyError: 'customer_id'
+Internal Server Error: /new_messages/
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/www/wwwroot/myproject3888/Capstone_app/views.py", line 273, in new_messages
+    if ( (Supplier.objects.filter(token = user_token)) and (not Message.objects.filter(customer_id = obj['customer_id'])) ):
+KeyError: 'customer_id'
+Internal Server Error: /new_messages/
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/www/wwwroot/myproject3888/Capstone_app/views.py", line 273, in new_messages
+    if ( (Supplier.objects.filter(token = user_token)) and (not Message.objects.filter(customer_id = obj['customer_id'])) ):
+KeyError: 'customer_id'
+Internal Server Error: /new_messages/
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/www/wwwroot/myproject3888/Capstone_app/views.py", line 273, in new_messages
+    if ( (Supplier.objects.filter(token = user_token)) and (not Message.objects.filter(customer_id = obj['customer_id'])) ):
+KeyError: 'customer_id'
+Internal Server Error: /new_messages/
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/www/wwwroot/myproject3888/Capstone_app/views.py", line 273, in new_messages
+    if ( (Supplier.objects.filter(token = user_token)) and (not Message.objects.filter(customer_id = obj['customer_id'])) ):
+KeyError: 'customer_id'
+[2020-11-23 20:50:55 +0800] [17850] [CRITICAL] WORKER TIMEOUT (pid:22459)
+[2020-11-23 12:50:55 +0000] [22459] [INFO] Worker exiting (pid: 22459)
+[2020-11-23 20:50:56 +0800] [24602] [INFO] Booting worker with pid: 24602
+[2020-11-23 20:55:02 +0800] [17850] [CRITICAL] WORKER TIMEOUT (pid:22545)
+[2020-11-23 12:55:02 +0000] [22545] [INFO] Worker exiting (pid: 22545)
+[2020-11-23 20:55:03 +0800] [24950] [INFO] Booting worker with pid: 24950
+Not Found: /manager/html
+[2020-11-23 18:39:27 +0000] [24950] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+Not Found: /cn.bing.com:443
+[2020-11-23 18:39:29 +0000] [24950] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1418: RuntimeWarning: DateTimeField Message.date received a naive datetime (2020-11-24 00:04:17) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+Not Found: /www.ipip.net:443
+Not Found: /www.baidu.com:443
+[2020-11-23 18:39:34 +0000] [24950] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+[2020-11-23 18:39:34 +0000] [24950] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1418: RuntimeWarning: DateTimeField Quote.date received a naive datetime (2020-12-04 08:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+[2020-11-23 18:39:41 +0000] [17862] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+Not Found: /jars
+Not Found: /service/extdirect
+Not Found: /cn.bing.com:443
+Not Found: /www.baidu.com:443
+Not Found: /www.ipip.net:443
+[2020-11-23 21:17:04 +0000] [17862] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+[2020-11-23 21:17:04 +0000] [17862] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+[2020-11-23 21:17:05 +0000] [24950] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+[2020-11-23 21:17:05 +0000] [24950] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+[2020-11-23 21:17:06 +0000] [24950] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+Not Found: /cn.bing.com:443
+[2020-11-24 00:49:13 +0000] [24602] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+[2020-11-24 00:49:14 +0000] [24602] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+[2020-11-24 00:49:17 +0000] [24950] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+[2020-11-24 00:49:18 +0000] [24950] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ec2-user/.local/share/virtualenvs/myproject3888-Bc8-QMrc/lib/python3.8/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+Not Found: /www.baidu.com:443
+Not Found: /www.ipip.net:443
+Not Found: /jars
+Not Found: /service/extdirect
+Not Found: /jars
+Not Found: /service/extdirect
+Not Found: /jars
+Not Found: /service/extdirect
+Not Found: /favicon.ico
+Not Found: /jars
+Not Found: /service/extdirect
+Not Found: /ip.ws.126.net:443
+Not Found: /jars
+Not Found: /service/extdirect
+Not Found: /jars
+Not Found: /service/extdirect
+Not Found: /service/extdirect
+Not Found: /jars
+Not Found: /jars
+Not Found: /service/extdirect
+Not Found: /echo.php
+Not Found: /jars
+Not Found: /service/extdirect
+Not Found: /jars
+Not Found: /service/extdirect
+Not Found: /jars
+Not Found: /service/extdirect
+Not Found: /jars
+Not Found: /service/extdirect
+Not Found: /manager/text/list
+Not Found: /manager/html
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /jars
+Not Found: /service/extdirect
+Not Found: /HNAP1/
+Not Found: /ncsi.txt
+Not Found: /HNAP1/
+Not Found: /service/extdirect
+Not Found: /jars
+Not Found: /jars
+Not Found: /service/extdirect
+Not Found: /jars
+Not Found: /service/extdirect
+Not Found: /service/extdirect
+Not Found: /jars
+Not Found: /favicon.ico
+Not Found: /logout_site/
+[2020-11-29 11:26:31 +0800] [17850] [CRITICAL] WORKER TIMEOUT (pid:24602)
+[2020-11-29 03:26:31 +0000] [24602] [INFO] Worker exiting (pid: 24602)
+[2020-11-29 11:26:32 +0800] [29523] [INFO] Booting worker with pid: 29523

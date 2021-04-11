@@ -1,0 +1,26 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login Test</title>
+</head>
+<body>
+    <h1>Login Test</h1>
+    <form method="post" action = /login_site/>
+        {% csrf_token %}
+        <input type="text" name="username" placeholder="username"><br>
+        <input type="password" name="password" placeholder="password"><br>
+        <button id="btn" type="submit">login</button>
+    </form>
+
+{% if messages %}
+<script>
+        {% for msg in messages %}
+            alert('{{ msg.message }}');
+        {% endfor %}
+    </script>
+{% endif %}
+</body>
+</html>

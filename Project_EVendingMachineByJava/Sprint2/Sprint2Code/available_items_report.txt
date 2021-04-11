@@ -1,0 +1,14 @@
+item code: 1001, item name: MineralWater, category: Drinks, price: $1.5, remain number: 7 
+item code: 1002, item name: Sprite, category: Drinks, price: $3.0, remain number: 7 
+item code: 1003, item name: Pepsi, category: Drinks, price: $3.0, remain number: 7 
+item code: 1004, item name: Juice, category: Drinks, price: $2.5, remain number: 7 
+item code: 2001, item name: Mars, category: Chocolates, price: $10.0, remain number: 7 
+item code: 2002, item name: M&M, category: Chocolates, price: $12.0, remain number: 7 
+item code: 2003, item name: Bounty, category: Chocolates, price: $15.2, remain number: 7 
+item code: 2004, item name: Snickers, category: Chocolates, price: $13.2, remain number: 7 
+item code: 3001, item name: Smiths, category: Chips, price: $8.5, remain number: 7 
+item code: 3002, item name: Pringles, category: Chips, price: $9.35, remain number: 7 
+item code: 3003, item name: Kettle, category: Chips, price: $5.43, remain number: 7 
+item code: 3004, item name: Thins, category: Chips, price: $8.55, remain number: 7 
+item code: 4001, item name: Mentos, category: Candies, price: $10.3, remain number: 7 
+item code: 4002, item name: Sour, category: Candies, price: $8.83, remain number: 7 

@@ -1,0 +1,64 @@
+{
+    "token" : "iBUCJ5WV",
+    "customer_name" : "Selina",
+    "sender" : "Supplier",
+    "date" : "2020-11-22 13:27:30",
+    "content" : "hey how you doing" ,
+    "last_conversation": false
+}
+{
+    "token" : "iBUCJ5WV",
+    "customer_name" : "Selina",
+    "sender" : "Customer",
+    "date" : "2020-11-22 13:35:30",
+    "content" : "I am fine, could you provide a lower price aroud 350 dollar rather than 370 dollar in the quote?": ,
+    "last_conversation": false
+}
+{
+    "token" : "iBUCJ5WV",
+    "customer_name" : "Selina",
+    "sender" : "Supplier",
+    "date" : "2020-11-22 13:45:30",
+    "content" : "Sure! I am willing to do that!" ,
+    "last_conversation": true
+}
+{
+    "token" : "iBUCJ5WV",
+    "customer_name" : "Tom",
+    "sender" : "Customer",
+    "date" : "2020-11-7 15:15:30",
+    "content" : "Hey, have you arrived?",
+    "last_conversation": false
+}
+{
+    "token" : "iBUCJ5WV",
+    "customer_name" : "Tom",
+    "sender" : "Supplier",
+    "date" : "2020-11-7 15:20:30",
+    "content" : "Yep, could you see the white van near the car parking area?",
+    "last_conversation": true
+}
+{
+    "token" : "iBUCJ5WV",
+    "customer_name" : "Jerry",
+    "sender" : "Supplier",
+    "date" : "2020-11-4 16:55:30",
+    "content" : "How are you? Are you willing to accept the budget with 250 dollar instead of 220 dollar?",
+    "last_conversation": true
+}
+{
+    "token" : "iBUCJ5WV",
+    "customer_name" : "Lilian",
+    "sender" : "Customer",
+    "date" : "2020-11-20 18:15:30",
+    "content" : "Hey! Could you please come to my place 30 minutes later tomorrow?",
+    "last_conversation": false
+}
+{
+    "token" : "iBUCJ5WV",
+    "customer_name" : "Lilian",
+    "sender" : "Supplier",
+    "date" : "2020-10-20 20:15:30",
+    "content" : "I was just doing another jobs. NW, I am happy with that!",
+    "last_conversation": true
+}

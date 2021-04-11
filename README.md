@@ -1,3 +1,7 @@
-# Li-s-profile
+# Some notes to JackyLi-s-profile
+
 My pass Github account including several projects used school email to create which cannot use anymore.
-Jacky Li's profile includes pass project from 2017 to 2020.
+
+Jacky Li's profile includes pass project from 2018 to 2020 and some of code may be lost.
+
+The folder starts with "Pojrect" means it contains all files needed by the project, starts with "Program" means it only contains the codes, starts with "Report" means it only contains the reports and maybe along with presentation of the case study.

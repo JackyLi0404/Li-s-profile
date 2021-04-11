@@ -1,0 +1,60 @@
+{"date":"2020-11-20","order_state":"unallocated","title":"Home cleaning","description":"Please provide me a wonderful cleanning","category":"cleaning","budget":"250","suburb":"Zetland","token":"iBUCJ5WV"}
+{"date":"2020-11-25 15:00:00","order_state":"completed","title":"Fix my tabletop","description":"My tabletop is broken with continuous show the blue screen","category":"fixing ","budget":"200","suburb":"Rosebery","token":"iBUCJ5WV"}
+{"date":"2020-11-30 14:30:00","order_state":"unallocated","title":"Unlock the door","description":"My friend loses my key, I need someone help me get into the room","category":"unlocking","budget":"80","suburb":"Redfern","token":"iBUCJ5WV"}
+{"date":"2020-12-01","order_state":"unallocated","title":"Weed my garden","description":"A 30m^2 garden need to be weeded","category":"weeding","budget":"140","suburb":"Rosebery","token":"iBUCJ5WV"}
+{"date":"2020-12-02 14:45:00","order_state":"unallocated","title":"My key is left in the room","description":"I lost my key in the room, who can please help me","category":"unlocking","budget":"95","suburb":"Woli Creek","token":"iBUCJ5WV"}
+{"date":"2020-12-03 17:00:00","order_state":"unallocated","title":"Fix my television","description":"It just keeps show the white screen","category":"fixing","budget":"150","suburb":"Mascot","token":"iBUCJ5WV"}
+{"date":"2020-12-05 21:30:00","order_state":"unallocated","title":"Bed fixing","description":"The bed feet are broken","category":"fixing","budget":"170","suburb":"Redfern","token":"iBUCJ5WV"}
+{"date":"2020-12-04 08:00:00","order_state":"unallocated","title":"Clean my home please","description":"If someone interested in that, please contact me","category":"cleaning","budget":"180","suburb":"Ultimo","token":"iBUCJ5WV"}
+{"date":"2020-12-30 00:00:00","order_state":"pending","title":"I lost my key","description":"Could somebody help me open my door","category":"unlocking","budget":"100","suburb":"Rockdale","token":"iBUCJ5WV"}
+{"date":"2020-12-15 07:00:00","order_state":"pending","title":"Garden weeding","description":"My garden need to be weeded with 50m^ 2","category":"weeding","budget":"190","suburb":"Chastwood","token":"iBUCJ5WV"}
+{
+    "title" : "Roof cleanning",
+    "date": "2020-11-20 16:30:00",
+    "order_state" : "accepted",
+    "description" : "My roof is not cleaned for a year and with plenty of bird shits",
+    "category" : "cleaning",
+    "budget" : "200.0",
+    "suburb": "Eastwood",
+    "token":"75y6oLtl"
+}
+{
+    "title" : "Fix the pipe",
+    "date": "2020-11-25 18:00:00",
+    "order_state" : "reject",
+    "description" :"The water is stack in the bathroom",
+    "category" : "fixing",
+    "budget" : "100.0",
+    "suburb": "Hurstvill",
+    "token":"75y6oLtl"
+}
+{
+    "title" : "Repair the home applicaiton",
+    "date": "2020-11-28 15:15:00",
+    "order_state" : "pending",
+    "description": "My fridge cannot work anymore",
+    "category" : "fixing",
+    "budget" : "250.0",
+    "suburb": "Chastwood",
+    "token":"75y6oLtl"
+}
+{
+    "title" : "Make up the wall!",
+    "date": "2020-11-30 10:15:00",
+    "order_state" : "pending",
+    "description" :"The wall in the living room is broken by moving in the furniture",
+    "category" : "fixing",
+    "budget" : "280.0",
+    "suburb": "Eastwood",
+    "token":"75y6oLtl"
+}
+{
+    "title" : "House cleanning",
+    "date": "2020-11-24 9:30:00",
+    "order_state" : "accepted",
+    "description" : "I need a checkout cleaning standard cleaning with the 3 rooms apartment",
+    "category" : "cleaning",
+    "budget" : "400.0",
+    "suburb": "Waterloo",
+    "token":"75y6oLtl"
+}
